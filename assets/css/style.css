@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran&family=Lato&family=Mulish&display=swap');
+
+:root {
+    --black: #000000;
+    --yellow: #fdcc52;
+    --white: #FFFFFF;
+    --gray: #c0c0c0;
+    --twitter: #3e9cd6;
+    --facebook: #395999;
+    --googleplus: #de4b38;
+    --icons: #b12e5d;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    transition: all .3s ease;
+}
+.navbar-brand {
+    color: var(--yellow);
+}
+.navbar-brand:hover {
+    color: var(--white);
+}
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    width: 1.2rem;
+    height: 1.2rem;
+    vertical-align: top;
+}
+.top-nav-link {
+    color: var(--gray);
+    font-family: 'Lato', Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+}
+.top-nav-link:hover {
+    color: var(--white);
+}
+
+.section__top {
+    background-image: url("../img/bg-pattern.png"), linear-gradient(90deg, rgb(218, 36, 49), rgb(122, 67, 151));
+    background-repeat: repeat;
+    padding-bottom: 9rem;
+    padding-top: 6rem;
+}
+main {
+    padding-top: 4rem;
+}
+
+.store__img {
+    width: 15rem;
+}
+
+.card-icon {
+    color: var(--icons);
+}
+
+.section__start {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url("../img/bg-cta.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.section__social {
+    background-color: var(--yellow);
+}
+.heart {
+    color: var(--red);
+    font-size: 6rem;
+    font-family: 'Segoe UI';
+}
+.fa-twitter {
+    color: var(--white);
+    background-color: var(--twitter);
+    padding: 1rem;
+    border-radius: 100%;
+    opacity: .9;
+}
+.fa-twitter:hover {
+    opacity: 1;
+}
+.fa-facebook-f {
+    color: var(--white);
+    background-color: var(--facebook);
+    padding: 1rem 1.5rem;
+    border-radius: 100%;
+    opacity: .9;
+}
+.fa-facebook-f:hover {
+    opacity: 1;
+}
+.fa-google-plus-g {
+    color: var(--white);
+    background-color: var(--googleplus);
+    padding: 1.1rem .8rem;
+    border-radius: 100%;
+    opacity: .9;
+}
+.fa-google-plus-g:hover {
+    opacity: 1;
+}
+
+.footer {
+    font-family: 'Mulish', Helvetica, Arial, sans-serif;
+}
+.bottom-nav-link {
+    color: var(--secondary);
+}
+.bottom-nav-link:hover {
+    color: var(--yellow);
+}
+
+.phone {
+    background-image: url("../img/demo-screen-1.jpg"), url("../img/phone.png");
+    width: 350px;
+    height: 700px;
+    background-size: 86%, contain;
+    background-repeat: no-repeat, no-repeat;
+    background-position: center, center;
+}
+.headline {
+    font-family: 'Catamaran', Helvetica, Arial, sans-serif;
+}
+.span, .card-text {
+    font-family: 'Mulish', Helvetica, Arial, sans-serif;
+}
+.button {
+    border-radius: 100px;
+    transition: all .3s ease;
+    font-family: 'Lato', Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+.button:hover {
+    background-color: var(--yellow);
+    border-color: var(--yellow);
+}
+
+.bg-yellow {
+    background-color: var(--yellow);
+}
+.py-6 {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
